@@ -49,21 +49,27 @@ input[type=submit]:hover:after {
     transform: scale(0);
     cursor: pointer;
 }
-.login {
-    border: 3px solid #0390fc;
+
+button{
+    border: solid 3px #0390fc;
+    height: 50px;
+    background: #ffff;
+    border-radius: 30px;
+    position: absolute;
+    width: 200px;
     position: absolute;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -90%);
-    border-radius: 30px;
-    height: 30px;
-    text-align: center;
-}
-.login button {
-    border: none;
-    background: #ffff;
-    border-radius: 30px;
+    transform: translate(-50%,-90%);
 } 
-.login button a {
+.login:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+.login:hover:after {
+    transform: scale(0);
+    cursor: pointer;
+}
+a {
     text-decoration: none;
 }
