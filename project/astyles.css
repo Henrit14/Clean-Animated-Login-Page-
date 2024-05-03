@@ -37,4 +37,17 @@ input[type=submit]:hover:after {
 }
 .login {
     border: 3px solid #0390fc;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    border-radius: 30px;
+}
+.login button {
+    border: none;
+    background: #ffff;
+    border-radius: 30px;
+} 
+.login button a {
+    text-decoration: none;
 }
