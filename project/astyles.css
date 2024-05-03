@@ -35,3 +35,6 @@ input[type=submit]:hover:after {
     transform: scale(0);
     cursor: pointer;
 }
+.login {
+    border: 3px solid #0390fc;
+}

@@ -73,6 +73,7 @@ input {
 }
 button a p {
     font-family: 'Poppins', sans-serif;
+    font-stretch: condensed;
 }
 h1 {
     text-align: center;
