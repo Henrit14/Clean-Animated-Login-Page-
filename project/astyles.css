@@ -21,9 +21,9 @@ h1 {
 }
 .login-box {
     position: absolute;
-    top: 80%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -100%);
     width: 300px;
     border-radius: 30px;
     text-align: center;
