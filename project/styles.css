@@ -78,6 +78,8 @@ input {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     transition: all 0.5s ease;
+    border: 3px solid #61b2f0;
+    border-radius: 30px;
 }
 input:hover:after {
     transform: scale(0);
