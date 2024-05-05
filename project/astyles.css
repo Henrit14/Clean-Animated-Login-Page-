@@ -85,6 +85,11 @@ input:hover:after {
     transform: scale(0);
     cursor: pointer;
 }
+input[type=submit] {
+    background-color: #ffffff;
+    height: 50px;
+    border: 3px solid #0390fc
+}
 button a p {
     font-family: 'Poppins', sans-serif;
     font-stretch: condensed;
