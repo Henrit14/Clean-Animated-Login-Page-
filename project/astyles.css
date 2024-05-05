@@ -4,8 +4,12 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
+h1 {
+    text-align: center;
+}
 .register-box {
     display: grid;
+    place-content: center;
     margin: auto;
     position: absolute;
     width: 300px;
@@ -16,7 +20,7 @@ body {
     transform: translate(-50%, -50%);
     justify-content: center;
     text-align: center;
-    height: 350px;
+    height: 300px;
 }
 input {
     background: #ffffff;
@@ -25,7 +29,10 @@ input {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     transition: all 0.5s ease;
-    height: 30px;
+    height: 20px;
+}
+input[type=submit] {
+    height: 25px;
 }
 input:hover {
     transition: all 0.5s ease;
